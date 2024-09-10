@@ -4,4 +4,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def hello_world(request):
+<<<<<<< Updated upstream
     return HttpResponse("Hello, World! 9A Done Completed Bye")
+=======
+    return HttpResponse("Hello, World! 9A Done Bye")
+>>>>>>> Stashed changes
